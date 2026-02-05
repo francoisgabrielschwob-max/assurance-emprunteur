@@ -6,7 +6,7 @@ Disallow: /admin/
 Disallow: /private/
 
 # Sitemap
-Sitemap: https://votre-domaine.com/sitemap.xml
+Sitemap: https://assurance-emprunteur.fg-strategies.fr/sitemap.xml
 
 # Crawl delay
 Crawl-delay: 0
