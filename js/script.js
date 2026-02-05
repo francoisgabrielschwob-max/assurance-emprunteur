@@ -2,8 +2,8 @@
 // CONFIGURATION POWER AUTOMATE
 // =============================================
 
-// ⚠️ URL DU WEBHOOK POWER AUTOMATE - À REMPLACER APRÈS CRÉATION DU FLUX
-const POWER_AUTOMATE_WEBHOOK_URL = 'https://prod-XX.westeurope.logic.azure.com:443/workflows/XXXXXXXX/triggers/manual/paths/invoke?api-version=2016-06-01&sp=%2Ftriggers%2Fmanual%2Frun&sv=1.0&sig=XXXXXXXXXXXXXXXX';
+// ✅ URL DU WEBHOOK POWER AUTOMATE
+const POWER_AUTOMATE_WEBHOOK_URL = 'https://default95e2642c307a49d8b4811b70a66b7f.58.environment.api.powerplatform.com:443/powerautomate/automations/direct/workflows/9bd265c809c3430cb410f971fedf3bd4/triggers/manual/paths/invoke?api-version=1&sp=%2Ftriggers%2Fmanual%2Frun&sv=1.0&sig=LY73l4rKj4srmmhXWIJnMGgo2NRzzGn8QFdN6iWvFcA';
 
 // =============================================
 // CAPTURE DES PARAMÈTRES UTM (Google Ads)
