@@ -50,7 +50,7 @@ body {
     font-weight: 400;
     line-height: 1.7;
     color: var(--text-dark);
-    background-color: var(--background-light);
+    background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 50%, #faf8f5 100%);
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
@@ -202,7 +202,7 @@ h4, h5, h6 {
 /* Lead Magnet Section - Premium Card */
 .lead-magnet {
     padding: var(--spacing-xxl) 0;
-    background: var(--background-cream);
+    background: linear-gradient(135deg, #faf8f5 0%, #ffffff 50%, #f8f9fa 100%);
 }
 
 .guide-box {
@@ -309,7 +309,7 @@ h4, h5, h6 {
 /* Form Section - Premium Design */
 .form-section {
     padding: var(--spacing-xxl) 0;
-    background: linear-gradient(135deg, #f8f9fa 0%, #faf8f5 100%);
+    background: linear-gradient(135deg, #f8f9fa 0%, #faf8f5 50%, #ffffff 100%);
     position: relative;
 }
 
@@ -689,7 +689,7 @@ h4, h5, h6 {
 /* Eligibility Section - Premium Cards */
 .eligibility {
     padding: var(--spacing-xxl) 0;
-    background: white;
+    background: linear-gradient(135deg, #ffffff 0%, #faf8f5 50%, #ffffff 100%);
 }
 
 .eligibility-grid {
@@ -771,7 +771,7 @@ h4, h5, h6 {
 /* Administrative Section - Premium */
 .administrative {
     padding: var(--spacing-xl) 0;
-    background: linear-gradient(135deg, var(--background-cream) 0%, #f8f9fa 50%, var(--background-cream) 100%);
+    background: linear-gradient(135deg, #faf8f5 0%, #ffffff 50%, #faf8f5 100%);
     position: relative;
 }
 
@@ -802,7 +802,7 @@ h4, h5, h6 {
 /* Trust Section - FG Strategies Premium */
 .trust {
     padding: var(--spacing-xxl) 0;
-    background: white;
+    background: linear-gradient(135deg, #ffffff 0%, #f8f9fa 100%);
 }
 
 .trust-header {
