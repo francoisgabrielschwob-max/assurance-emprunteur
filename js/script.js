@@ -197,7 +197,7 @@ async function submitForm(data) {
             // ✅ GOOGLE ADS CONVERSION TRACKING
             if (typeof gtag === 'function') {
                 gtag('event', 'conversion', {
-                    'send_to': 'AW-16583907507/XXXXXXXX',  // ⚠️ À REMPLACER PAR VOTRE ID
+                    'send_to': 'AW-16583907507/SQsWCIyW3vMbELOx6eM9',
                     'value': 1.0,
                     'currency': 'EUR'
                 });
