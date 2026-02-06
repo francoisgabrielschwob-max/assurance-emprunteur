@@ -195,14 +195,15 @@ async function submitForm(data) {
             console.log('✅ Lead envoyé avec succès à Power Automate');
             
             // ✅ GOOGLE ADS CONVERSION TRACKING
-            if (typeof gtag === 'function') {
-                gtag('event', 'conversion', {
-                    'send_to': 'AW-16583907507/SQsWCIyW3vMbELOx6eM9',
-                    'value': 1.0,
-                    'currency': 'EUR'
-                });
-                console.log('✅ Conversion Google Ads envoyée');
-            }
+            // DÉPLACÉ SUR thank-you.html pour une meilleure détection
+            // if (typeof gtag === 'function') {
+            //     gtag('event', 'conversion', {
+            //         'send_to': 'AW-16583907507/SQsWCIyW3vMbELOx6eM9',
+            //         'value': 1.0,
+            //         'currency': 'EUR'
+            //     });
+            //     console.log('✅ Conversion Google Ads envoyée');
+            // }
             
             // ✅ FACEBOOK PIXEL TRACKING (si activé)
             if (typeof fbq === 'function') {
